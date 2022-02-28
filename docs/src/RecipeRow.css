@@ -1,0 +1,9 @@
+.name, .cuisine, .photo, .actions{
+  width: 10%;
+}
+td:nth-child(4), td:nth-child(5){
+  width: 30%;
+}
+tbody tr:nth-child(odd){ 
+	background-color: #F9F5C7;
+}
