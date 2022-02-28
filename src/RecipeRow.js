@@ -9,8 +9,8 @@ function RecipeRow({recipe, removeRecipe}, key){
       <td className="photo">
         <img src={photo} alt="food from recipe" />
       </td>
-      <td className="ingredients">{ingredients}</td>
-      <td className="preparation">{preparation}</td>
+      <td className="ingredients"><p>{ingredients}</p></td>
+      <td className="preparation" style={{maxHeight:"50px", overflow:"scroll"}}><p>{preparation}</p></td>
       <td className="actions">
         <button name="delete" onClick={removeRecipe}>Delete</button>
       </td>
